@@ -37,7 +37,7 @@ After this, you may proceed by running Puppet manually once. This should set up
 everything:
 
 ```
-puppet apply --modulepath /etc/puppet/modules /etc/puppet/manifests
+sudo puppet apply --modulepath /etc/puppet/modules /etc/puppet/manifests
 ```
 
 You should now have a host with a masterless Puppet setup. Use this for example
