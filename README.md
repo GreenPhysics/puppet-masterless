@@ -30,7 +30,7 @@ Clone the repository using `git` to the destination folder, `/etc/puppet`. You
 may have to remove this folder first.
 
 ```
-rm -rf /etc/puppet && git clone git@githost.com:company/puppet.git /etc/puppet
+rm -rf /etc/puppet && git clone git@github.com:GreenPhysics/puppet-masterless.git /etc/puppet
 ```
 
 After this, you may proceed by running Puppet manually once. This should set up
